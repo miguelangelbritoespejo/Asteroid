@@ -251,7 +251,7 @@ abstract class Object {
     }
  
     if (y < 1.25*s) {
-      translate(width+x, y+height);
+      translate(width-x, y+height);
       show();
       translate(x-width, -y-height);
     }
